@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import static java.sql.DriverManager.println;
+
 public class main {
     public static void main(String [] args){
 
@@ -21,6 +23,7 @@ public class main {
         ArrayOrganizer organizer = new ArrayOrganizer();
         ArrayList<Integer> result = organizer.concatAndSort(ArrayList1, ArrayList2, ArrayList3);
         System.out.println(result);
+        System.out.println("​Successfully reverted in Git");
     }
 
 }
